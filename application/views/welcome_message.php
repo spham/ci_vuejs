@@ -59,23 +59,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 
-<div id="container" class="container-fluid">
+<div id="container" class="container">
 	<h1>Welcome to CodeIgniter!</h1>
 	
 	<div id="app">
 		<div class="row">
-		<div class="md-4">
+		<div class="col-sm-3">
 			<h1>Firstname : {{firstname}}</h1>
 		</div>
-		<div class="mx-4"></div>
-		<div class="md-4">
+		<div class="mx-2"></div>
+		<div class="col-sm-3">
 			<h1>Lastname : {{lastname}}</h1>	
 		</div>
-		<div class="mx-4"></div>
-		<div class="md-4">
-			<div v-html = "htmlcontent"></div>
-		</div>			
-
+		
 	</div>
 	     
         

@@ -8,7 +8,6 @@ let app = new Vue({
    el: '#app',
    data: {
       firstname : "Jabrane",
-      lastname  : "Jabri",
-      htmlcontent : "<div><h1>Vue Js Template Sample</h1></div>"
+      lastname  : "Jabri"
    }
 })
