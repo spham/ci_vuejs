@@ -11,9 +11,5 @@ let mix = require('laravel-mix');
  |
  */
 
-/*mix.autoload({
- jquery: ['$', 'jQuery', 'window.jQuery'],
-});*/
-
 mix.js('./src/app.js', './dist/').sass('./src/app.scss', './dist/');
-mix.setResourceRoot('/ci_intervention/assets/');
+mix.setResourceRoot('../');
