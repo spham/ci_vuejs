@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/ci_vuejs';
+$config['base_url'] = 'http://localhost:8000';
 
 /*
 |--------------------------------------------------------------------------
@@ -55,7 +55,7 @@ $config['index_page'] = 'index.php';
 $config['uri_protocol']	= 'REQUEST_URI';
 
 /*
-|--------------------------------------------------------------------------
+|--------------------------------------------------------------------------`
 | URL suffix
 |--------------------------------------------------------------------------
 |
@@ -70,11 +70,11 @@ $config['url_suffix'] = '';
 |--------------------------------------------------------------------------
 | Default Language
 |--------------------------------------------------------------------------
-|
+|Ù
 | This determines which set of language files should be used. Make sure
 | there is an available translation if you intend to use something other
 | than english.
-|
+|`
 */
 $config['language']	= 'english';
 

@@ -9,3 +9,27 @@
 ### Authors
 
 * **Jabrane Jabri** - *Work* - [ci_vuejs](https://github.com/jjab2020/ci_vuejs.git)
+
+
+### remarque
+
+#### front
+
+```
+cd /assets
+npm i
+npm run watch
+````
+
+#### back
+
+```
+cd /application
+composer i
+
+```
+
+
+cd /
+php -S localhost:8000
+
